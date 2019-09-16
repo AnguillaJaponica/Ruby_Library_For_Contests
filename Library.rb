@@ -13,7 +13,9 @@
 # 入力が地図のパターン
 h, w = gets.split.map(&:to_i)
 c = h.times.map {gets.chomp} # 文字列の配列
-c = h.times.map {gets.chomp.chars}
+c = h.times.map {gets.chomp.chars} # 一文字ずつ切る
+c = gets.split(' ').map(&:to_i) # 数値の場合
+
 
 # 入力が二次元配列のパターン
 h, w = gets.split.map(&:to_i)
