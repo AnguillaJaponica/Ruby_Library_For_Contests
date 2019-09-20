@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5233a516-1f49-44de-8919-cabaa2a95389" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ABC135/A.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC140/A.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +14,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Library.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ABC126/A.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ABC135/A.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ABC140/A.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="9" lean-forward="true" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -34,12 +63,15 @@
         <option value="$PROJECT_DIR$/input_file.txt" />
         <option value="$PROJECT_DIR$/ABC107/input_file.txt" />
         <option value="$PROJECT_DIR$/ABC107/A.rb" />
+        <option value="$PROJECT_DIR$/ABC126/A.rb" />
+        <option value="$PROJECT_DIR$/ABC135/A.rb" />
+        <option value="$PROJECT_DIR$/ABC140/A.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="825" />
-    <option name="width" value="615" />
+    <option name="x" value="537" />
+    <option name="width" value="903" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectView">
@@ -53,6 +85,11 @@
             <path>
               <item name="Ruby_Library_For_Contests" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ruby_Library_For_Contests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ruby_Library_For_Contests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ruby_Library_For_Contests" type="462c0819:PsiDirectoryNode" />
+              <item name="ABC140" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -125,23 +162,23 @@
       <workItem from="1568124794786" duration="2943000" />
       <workItem from="1568461743285" duration="36000" />
       <workItem from="1568601679241" duration="731000" />
-      <workItem from="1568640845769" duration="1420000" />
+      <workItem from="1568640845769" duration="2957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5130000" />
+    <option name="totallyTimeSpent" value="6667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="537" y="0" width="903" height="900" extended-state="0" />
+    <frame x="681" y="0" width="759" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21370499" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28870293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -149,7 +186,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -182,6 +219,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABC126/A.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABC135/A.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABC140/A.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="true" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
