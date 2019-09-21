@@ -30,3 +30,11 @@ a = h.times.map{|i|}
   }
 }
 
+# 配列の奇数番目や偶数番目を取り出して新たな配列にする
+odd = ary.group_by{|i| i%2}[1]
+even = ary.group_by{|i| i%2}[0]
+
+# 数値からなる配列のうち、奇数のものだけ・偶数のものだけとる
+odd = ary.select(&:odd?)
+even = ary.select(&:even?)
+
