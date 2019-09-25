@@ -1,17 +1,15 @@
-str = gets.chomp.split('')
+str = gets.chomp
 
-(0..str.length-1).each do |i|
+(0..(str.length-1)).each do |i|
   if i % 2 == 0
-    unless str[i] == 'R' || str[i] == 'U' || str[i] == 'D'
+    if str[i] == 'L'
       puts 'No'
-      return
+      exit
     end
-  end
-
-  if i % 2 == 1
-    unless str[i] == 'L' || str[i] == 'U' || str[i] == 'D'
+  elsif i % 2 == 1
+    if str[i] == 'R'
       puts 'No'
-      return
+      exit
     end
   end
 end
