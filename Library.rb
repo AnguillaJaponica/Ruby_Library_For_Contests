@@ -9,8 +9,9 @@
 
 # 幅優先探索
 # 深さ優先探索
-
 # 入力が地図のパターン
+#
+#
 h, w = gets.split.map(&:to_i)
 c = h.times.map {gets.chomp} # 文字列の配列
 c = h.times.map {gets.chomp.chars} # 一文字ずつ切る
