@@ -1,7 +1,9 @@
 n = gets.to_i
-one_to_n= (1..n).to_a
 numbers = gets.split(' ').map(&:to_i)
+rearranged = Array.new(n)
 
-one_to_n.each do |idx|
-  print (one_to_n.bsearch{|num| num <=> numbers.index(idx)+1}).to_s + ' '
+n.times do |idx|
+  rearranged[numbers[idx] - 1] = idx + 1
 end
+
+puts rearranged.join(' ')
