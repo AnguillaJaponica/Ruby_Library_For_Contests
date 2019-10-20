@@ -39,3 +39,5 @@ even = ary.group_by{|i| i%2}[0]
 odd = ary.select(&:odd?)
 even = ary.select(&:even?)
 
+# Gooooogle→Gogle
+'Gooooooogle'.squeeze
