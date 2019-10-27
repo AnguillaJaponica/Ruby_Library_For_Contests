@@ -24,7 +24,7 @@ a = h.times.map {gets.split.map(&:to_i)}
 
 # 入力が幅と高さのみ。二次元配列を自分で作る場合。
 h, w = gets.split.map(&:to_i)
-a = h.times.map{|i|}
+a = h.times.map{|i|
   w.times.map {|j|
     # i,jによる初期値
     # i == j ? 1 : 0 単位行列
@@ -41,3 +41,9 @@ even = ary.select(&:even?)
 
 # Gooooogle→Gogle
 'Gooooooogle'.squeeze
+
+# 文字列→日時
+require 'time'
+
+Time.parse('2013-11-22')
+DateTime.parse('2013-12-12')
