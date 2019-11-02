@@ -44,6 +44,9 @@ even = ary.select(&:even?)
 
 # 文字列→日時
 require 'time'
-
 Time.parse('2013-11-22')
 DateTime.parse('2013-12-12')
+
+# 処理時間を測りたい
+start_time = Time.now
+p "処理概要 #{Time.now - start_time}s" # 最後に挿入
