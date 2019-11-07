@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5233a516-1f49-44de-8919-cabaa2a95389" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ABC/ABC113/A.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC114/A.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC114/B.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC115/A.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/ABC134/B.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5233a516-1f49-44de-8919-cabaa2a95389" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +19,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ABC/ABC134/B.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -43,7 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/input_file.txt" />
         <option value="$PROJECT_DIR$/ABC107/input_file.txt" />
         <option value="$PROJECT_DIR$/ABC107/A.rb" />
         <option value="$PROJECT_DIR$/ABC126/A.rb" />
@@ -94,6 +95,7 @@
         <option value="$PROJECT_DIR$/ABC/ABC113/A.rb" />
         <option value="$PROJECT_DIR$/ABC/ABC114/B.rb" />
         <option value="$PROJECT_DIR$/ABC/ABC134/B.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -215,12 +217,12 @@
       <workItem from="1571581106716" duration="86000" />
       <workItem from="1572053324927" duration="7821000" />
       <workItem from="1572691703462" duration="1980000" />
-      <workItem from="1572778825899" duration="1478000" />
+      <workItem from="1572778825899" duration="1823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52044000" />
+    <option name="totallyTimeSpent" value="52389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -253,13 +255,6 @@
     <SUITE FILE_PATH="coverage/Ruby_Library_For_Contests@A.rcov" NAME="A Coverage Results" MODIFIED="1568641893094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ABC107" MODULE_NAME="Ruby_Library_For_Contests" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ABC/ABC140/B.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ABC/ABC140/A.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -591,6 +586,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
