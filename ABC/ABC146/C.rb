@@ -1,22 +1,7 @@
-a, b, x = gets.split.map(&:to_i)
-ketas = (1..9).to_a
-alt = []
+A, B, X = gets.chomp.split.map(&:to_i)
 
-fhsdhos;bcv;owhcv:pwjだめぽ
-
-ketas.each do |keta|
-  if (x - b * keta) % a
-
-
-  if coef <= 0
-    alt.push(0)
-  else
-    alt.push(coef)
-  end
+def price(num)
+  A * num + B * (num.to_s.length)
 end
 
-if alt.max <= 0
-  puts 0
-else
-  puts alt.max
-end
+p [(1..10**18 + 5).bsearch{|x| price(x) > X } - 1, 1000000000].min
