@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5233a516-1f49-44de-8919-cabaa2a95389" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ABC/ABC115/B.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC/ABC137/C.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,17 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ABC/ABC115/B.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,18 +95,6 @@
               <item name="Ruby_Library_For_Contests" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ruby_Library_For_Contests" type="462c0819:PsiDirectoryNode" />
               <item name="ABC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ruby_Library_For_Contests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ruby_Library_For_Contests" type="462c0819:PsiDirectoryNode" />
-              <item name="ABC" type="462c0819:PsiDirectoryNode" />
-              <item name="ABC115" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ruby_Library_For_Contests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ruby_Library_For_Contests" type="462c0819:PsiDirectoryNode" />
-              <item name="ABC" type="462c0819:PsiDirectoryNode" />
-              <item name="ABC147" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,18 +189,17 @@
       <workItem from="1574689186606" duration="481000" />
       <workItem from="1575083223960" duration="8757000" />
       <workItem from="1575693565386" duration="600000" />
-      <workItem from="1575725917140" duration="10177000" />
+      <workItem from="1575725917140" duration="11660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81239000" />
+    <option name="totallyTimeSpent" value="82722000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="695" y="0" width="745" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="648" y="0" width="792" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3499289" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34933335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -252,13 +229,6 @@
     <SUITE FILE_PATH="coverage/Ruby_Library_For_Contests@A.rcov" NAME="A Coverage Results" MODIFIED="1568641893094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ABC107" MODULE_NAME="Ruby_Library_For_Contests" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ABC/ABC136/B.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ABC/ABC142/C.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -584,10 +554,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ABC/ABC115/B.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABC/ABC137/C.rb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
