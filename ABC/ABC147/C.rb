@@ -1,26 +1,21 @@
 n = gets.to_i
-testimomies = []
+a = Array.new(n)
+n.times do |i|
+  ai = gets.to_i
+  a[i] = ai.times.map {gets.split.map(&:to_i)}
+end
 
-n.times do
-  a = gets.to_i
-  a.times do
-    x, y = gets.split.map(&:to_i)
-    testimomies.push([a, x, y])
+ans = 0
+(1 << n).times do |bit|
+  flag = true
+  n.times do |i|
+    if bit[i] == 1
+      a[i].each do |x, y|
+        flag = false if bit[x - 1] != y
+      end
+    end
   end
+  count = bit.to_s(2).count('1')
+  ans = count if flag && ans < count
 end
-
-liar_counts = []
-honest_counts = []
-(1..n).each do |i|
-  liar_counts.push([i, 0])
-  honest_counts.push([i, 0])
-end
-
-testimomies.each do |testimony|
-  if testimony[2] == 0
-    liar_counts[testimony[0]][1] += 1
-  elsif testimony[2] == 1
-    honest_counts[testimony[0]][1] += 1
-  end
-end
-
+p ans
