@@ -17,6 +17,13 @@ c = h.times.map {gets.chomp} # 文字列の配列
 c = h.times.map {gets.chomp.chars} # 一文字ずつ切る
 c = gets.split(' ').map(&:to_i) # 数値の場合
 
+# 戦闘だけ大文字
+str.capitalize
+
+# 小文字化
+str.downcase
+# 大文字化
+str.upcase
 
 # 入力が二次元配列のパターン
 h, w = gets.split.map(&:to_i)
