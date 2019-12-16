@@ -1,17 +1,15 @@
 n = gets.to_i
-ans = []
-
+a = 0
 (1..n).each do |i|
+  next if i.even?
   count = 0
+
   (1..i).each do |j|
     if i % j == 0
       count += 1
     end
   end
-
-  if count == 8
-    ans.push(i)
-  end
+  a += 1 if count == 8
 end
 
-puts ans.length
+puts a
