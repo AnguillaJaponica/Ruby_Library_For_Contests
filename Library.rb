@@ -1,3 +1,8 @@
+# 入出力
+n = gets.to_i
+  = gets.split.map(&:to_i)
+  = gets.chomp
+
 # ２進数にする
 255.to_s(2) # 11111111
 
