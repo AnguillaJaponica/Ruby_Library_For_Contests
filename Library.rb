@@ -22,6 +22,9 @@ str.chars
 # 1文字ずつ分解
 str.split('')
 
+# 3桁表示で、ない分は0を埋める
+sprintf"%03d", i
+
 # ここの文字数をカウントする
 str.count('a')
 
