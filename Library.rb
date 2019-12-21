@@ -3,6 +3,10 @@ n = gets.to_i
   = gets.split.map(&:to_i)
   = gets.chomp
 
+
+# 文字列を一文字ずつの文字の配列にする
+str.chars
+
 # ２進数にする
 255.to_s(2) # 11111111
 
