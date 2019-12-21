@@ -1,7 +1,5 @@
 # 入出力
-n = gets.to_i
-= gets.split.map(&:to_i)
-= gets.chomp
+ = gets.split.map(&:to_i)
 
 
 # 文字列を一文字ずつの文字の配列にする
@@ -21,6 +19,10 @@ str.chars
 
 # 1文字ずつ分解
 str.split('')
+
+# 配列に含まれる要素の種類の数
+# 文字列にuniqは使えない
+array.uniq.length
 
 # 3桁表示で、ない分は0を埋める
 sprintf"%03d", i
