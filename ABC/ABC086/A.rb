@@ -1,15 +1,5 @@
-a = gets.to_i
-b = gets.to_i
-n = gets.to_i
-minimum_liked = a.lcm(b)
-mul = 1
-
-loop do
-  if minimum_liked >= n
-    puts minimum_liked
-    break
-  else
-    mul += 1
-    minimum_liked * mul
-  end
+if gets.split.map(&:to_i).inject(:*) % 2 == 0
+  puts 'Even'
+else
+  puts 'Odd'
 end
