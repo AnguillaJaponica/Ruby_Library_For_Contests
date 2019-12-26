@@ -1,17 +1,16 @@
-def search_for_longest(str)
-  count = 0
-  counts = []
-  atgc = ['A', 'T', 'G', 'C']
-  str.length.times do |i|
-    if atgc.include?(str[i])
-      count += 1
-    else
-      counts.push(count)
-      search_for_longest(str.slice!(i))
-    end
+s = gets.chomp.chars
+atgc = ['A', 'T', 'G', 'C']
+parts_length = []
+count = 0
+
+s.each do |str|
+  if !atgc.include?(str)
+    parts_length.push(count)
+    s.slice!(0..s.index(str))
+    count = 0
+  else
+    count += 1
   end
-  return counts
 end
 
-s = gets.chomp
-puts search_for_longest(s).max
+puts parts_length.max
