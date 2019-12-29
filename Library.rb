@@ -27,8 +27,22 @@ array.uniq.length
 # 3桁表示で、ない分は0を埋める
 sprintf"%03d", i
 
-# ここの文字数をカウントする
-str.count('a')
+# 素数判定
+def check_prime(num)
+  case num
+  when 1 then
+    false
+  when 2 then
+    true
+  else
+    (2..(num-1)).each do |index|
+      if num % index == 0
+        return false
+      end
+    end
+    return true
+  end
+end
 
 # 文字列一つ一つのループ
 str.each_char
