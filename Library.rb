@@ -55,10 +55,6 @@ numbers.combination(3).to_a
 # 順列
 numbers.permutation(2).to_a
 
-# 幅優先探索
-# 深さ優先探索
-# 入力が地図のパターン
-
 # 戦闘だけ大文字
 str.capitalize
 
