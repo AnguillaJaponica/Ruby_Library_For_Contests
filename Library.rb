@@ -46,6 +46,15 @@ def check_prime(num)
   end
 end
 
+# 重複組み合わせ
+combinations = [true, false].repeated_combination(n).to_a
+
+# 組み合わせ
+numbers.combination(3).to_a
+
+# 順列
+numbers.permutation(2).to_a
+
 # 幅優先探索
 # 深さ優先探索
 # 入力が地図のパターン
