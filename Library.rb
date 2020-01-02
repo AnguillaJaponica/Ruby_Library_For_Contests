@@ -29,6 +29,14 @@ p scores.sort {|(k1, v1), (k2, v2)| v2 <=> v1}
 # 3桁表示で、ない分は0を埋める
 sprintf "%03d", i
 
+# 特定の要素が出たら削除
+consonants = ['a', 'i', 'u', 'e', 'o']
+w = gets.chomp.chars
+
+w.delete_if do |str|
+  consonants.include?(str)
+end
+
 # 素数判定
 def check_prime(num)
   case num
