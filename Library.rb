@@ -37,6 +37,12 @@ w.delete_if do |str|
   consonants.include?(str)
 end
 
+# 配列の全てが偶数ならそれぞれ2で割る
+while numbers.all?(&:even?) do
+  count += 1
+  numbers = numbers.map { |number| number / 2 }
+end
+
 # 素数判定
 def check_prime(num)
   case num
