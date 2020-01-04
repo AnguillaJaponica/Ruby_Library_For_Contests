@@ -112,3 +112,15 @@ p "処理概要 #{Time.now - start_time}s" # 最後に挿入
 
 # 階乗
 (1..n).inject(1, :*)
+
+# 文字列sに含まれる長さkの部分文字列を抽出する
+s = gets.chomp.chars
+k = gets.to_i
+words = []
+if k > s.length
+  puts 0
+else
+  (0..s.length-k-1).each do |i|
+    words.push(s[i..i+k-1])
+  end
+end
