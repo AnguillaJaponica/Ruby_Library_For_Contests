@@ -1,7 +1,13 @@
-x = gets.chomp
+def chokugo?(s)
+  return true if s.empty?
 
-if x[-2..-1] == 'ch' || x[-1] == 'o' || x[-1] == 'k' || x[-1] == 'u' || x == ''
-  puts 'YES'
-else
-  puts 'NO'
+  if s.start_with?('ch')
+    chokugo?(s[2..-1])
+  elsif s.start_with?('o', 'k', 'u')
+    chokugo?(s[1..-1])
+  else
+    false
+  end
 end
+
+puts chokugo?(gets.chomp) ? 'YES' : 'NO'
