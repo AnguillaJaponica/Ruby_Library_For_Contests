@@ -128,3 +128,13 @@ end
 # 配列結合
 [1,2,3].concat([4,5,6])
 => [1,2,3,4,5,6]
+
+# a+b+c = dとなるようなものの洗い出し(a,b,cそれぞれに条件つき)
+(0..k).each do |h|
+  (0..k).each do |i|
+    j = s - h - i
+    if j <= k && 0 <= j
+      count += 1
+    end
+  end
+end
