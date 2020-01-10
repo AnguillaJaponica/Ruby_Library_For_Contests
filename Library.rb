@@ -108,7 +108,8 @@ DateTime.parse('2013-12-12')
 
 # 処理時間を測りたい
 start_time = Time.now
-p "処理概要 #{Time.now - start_time}s" # 最後に挿入
+puts "処理概要 #{Time.now - start_time}s"
+# 最後に挿入
 
 # 階乗
 (1..n).inject(1, :*)
