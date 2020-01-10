@@ -1,7 +1,11 @@
 a, b = gets.split.map(&:to_i)
+plug = 1
+ans = 0
 
-if a >= b
-  puts 1
-else
-  puts b / a + 1
+while plug < b do
+  plug -= 1
+  plug += a
+  ans += 1
 end
+
+puts ans
