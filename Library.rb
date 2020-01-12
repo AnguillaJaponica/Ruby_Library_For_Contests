@@ -145,9 +145,18 @@ end
   end
 end
 
+#コラッツ
+def calc(x)
+  if x.even? then
+    x = x/2
+  else
+    x = (x*3)+1
+  end
+  x
+end
+
 # 回転
 mat = [[1,2,3],[4,5,6],[7,8,9]]
-
-pp mat.transpose.map(&:reverse)  #=> 右回転
-pp mat.reverse.map(&:reverse)    #=> 180度回転
-pp mat.transpose.reverse         #=> 左回転
+mat.transpose.map(&:reverse)  #=> 右回転
+mat.reverse.map(&:reverse)    #=> 180度回転
+mat.transpose.reverse         #=> 左回転
