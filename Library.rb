@@ -119,6 +119,10 @@ puts "処理概要 #{Time.now - start_time}s"
 # 階乗
 (1..n).inject(1, :*)
 
+# 配列を二つに分ける
+arr = ["cat", 123, "mouse", 0.99, :dog]
+numbers, non_numbers = arr.partition {|item| item.kind_of?(Numeric) }
+
 # 文字列sに含まれる長さkの部分文字列を抽出する
 s = gets.chomp.chars
 k = gets.to_i
