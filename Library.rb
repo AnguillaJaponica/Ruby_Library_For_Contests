@@ -72,6 +72,11 @@ numbers.permutation(2).to_a
 # 戦闘だけ大文字
 str.capitalize
 
+# 整数かの判定
+if (/^[+-]?[0-9]+$/ =~ input)
+
+sq = Math.sqrt(sum)
+ans += 1 if sq % 1 == 0
 # 小文字化
 str.downcase
 # 大文字化
