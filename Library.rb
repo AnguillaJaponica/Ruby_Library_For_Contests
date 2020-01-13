@@ -37,6 +37,11 @@ w.delete_if do |str|
   consonants.include?(str)
 end
 
+# 2のべき乗数判定
+def pow?(num)
+  (num & (num - 1)).zero?
+end
+
 # 配列の全てが偶数ならそれぞれ2で割る
 while numbers.all?(&:even?) do
   count += 1
@@ -158,9 +163,34 @@ def calc(x)
   end
   x
 end
+# 深さ優先探索(マインスイーパ)
+h, w = gets.split.map(&:to_i)
+
+strings = []
+h.times do
+  strings << gets.chomp
+end
+
+dx = [-1,0,1,-1,1,-1,0,1]
+dy = [-1,-1,-1,0,0,1,1,1]
+
+h.times do |i|
+  w.times do |j|
+    next if strings[i][j] == '#'
+    counter = 0
+
+    8.times do |k|
+      x = i + dx[k]
+      y = j + dy[k]
+      counter += 1 if x >= 0 && x < h && y >= 0 && y < w && strings[x][y] == '#'
+    end
+    strings[i][j] = counter.to_s
+  end
+end
 
 # 回転
 mat = [[1,2,3],[4,5,6],[7,8,9]]
 mat.transpose.map(&:reverse)  #=> 右回転
 mat.reverse.map(&:reverse)    #=> 180度回転
 mat.transpose.reverse         #=> 左回転
+
