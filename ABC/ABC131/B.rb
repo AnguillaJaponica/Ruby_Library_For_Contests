@@ -1,9 +1,8 @@
-n = gets.to_i
-weights = gets.split.map(&:to_i)
-diff_sets = []
+n, l = gets.split.map(&:to_i)
+tastes = []
 
 n.times do |i|
-  diff_sets.push((weights[0..i].inject(:+) - weights[i+1..-1].inject(:+)).abs)
+  tastes << l + i
 end
-
-puts diff_sets.min
+tastes.delete(tastes.min_by{|i| i.abs})
+puts tastes.inject(:+)

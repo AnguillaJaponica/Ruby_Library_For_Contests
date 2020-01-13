@@ -64,6 +64,9 @@ def check_prime(num)
     return true
   end
 end
+# 条件によって一番小さいものを取ってくる
+tastes = [1,2,3,4,5]
+tastes.delete(tastes.min_by{|i| i.abs})
 
 # 重複組み合わせ
 combinations = [true, false].repeated_combination(n).to_a
