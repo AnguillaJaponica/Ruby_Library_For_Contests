@@ -1,19 +1,23 @@
 s = gets.to_i
+collatz = []
+count = 1
 
-def calc(x)
-  if x.even? then
-    x = x/2
+(1..1000000).each do |i|
+  if i.even?
+    if collatz.include?(i / 2)
+      break
+    else
+      collatz << i / 2
+      count += 1
+    end
   else
-    x = (x*3)+1
+    if collatz.include?(3 * i + 1)
+      break
+    else
+      collatz << 3 * i + 1
+      count += 1
+    end
   end
-  x
 end
 
-line = []
-temp = 0
-
-(1..s).each do |i|
-  line << calc(i)
-end
-
-print line
+puts count
