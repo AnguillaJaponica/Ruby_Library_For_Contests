@@ -1,15 +1,11 @@
 n = gets.to_i
-weights = gets.split.map(&:to_i).sort
-minimum = 1000000
-alts = []
+ary = gets.split.map(&:to_i)
 
-(1..n-2).each do |i|
-  a_weights, b_weights = weights.partition {|weight| weights.index(weight) + 1 <= i}
-  gap = (a_weights.inject(:+) - b_weights.inject(:+)).abs
-  if gap < minimum
-    minimum = gap
-  end
-  alts << minimum
+sum = ary.inject(:+)
+count = 0
+abs = sum
+ary.each do |i|
+  count += i
+  abs = [(count * 2 - sum).abs, abs].min
 end
-
-puts alts.min
+puts abs
