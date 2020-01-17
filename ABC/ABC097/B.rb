@@ -1,12 +1,13 @@
-def pow?(num)
-  (num & (num - 1)).zero?
-end
-
 x = gets.to_i
+power = []
 
-(0..x).each do |i|
-  if pow?(x-i)
-    puts x-i
-    break
+(1..x).each do |i|
+  (2..9).each do |j|
+    if i ** j > x
+      next
+    end
+    power << i ** j
   end
 end
+
+puts power.max

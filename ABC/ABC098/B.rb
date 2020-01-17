@@ -1,17 +1,9 @@
 n = gets.to_i
 s = gets.chomp.chars
-chr = s.uniq
 counts = []
 
-(1...n-1).each do |i|
-  x = s[0..i]
-  y = s[i+1..-1]
-
-  chr.each do |str|
-    if x.include?(str) && y.include?(str)
-      counts << str
-    end
-  end
+(0..n-2).each do |i|
+  counts << (s[0..i] & s[i+1..-1]).count
 end
 
-puts counts.uniq.length
+puts counts.max
