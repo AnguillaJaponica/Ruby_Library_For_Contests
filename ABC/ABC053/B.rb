@@ -1,11 +1,5 @@
-str = gets.chomp.chars
-
-str.each do |s|
-  if s == 'A'
-    count = 1
-    unless s == 'Z'
-      count += 1
-    end
-  end
-
-end
+s = gets.chomp.chars
+left = s.find_index('A')
+right = s.size - s.reverse.find_index('Z') - 1
+ans = right - left + 1
+puts ans
