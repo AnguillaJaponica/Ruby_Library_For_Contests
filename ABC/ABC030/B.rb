@@ -1,3 +1,7 @@
-n,m = gets.split.map(&:to_i)
+n, m = gets.chomp.split.map(&:to_i)
+n = n % 12
+hour = 30
 
-puts [360.to_f / (n.to_f/12 - m.to_f/60).abs, 360 -360.to_f / (n.to_f/12 - m.to_f/60).abs].min
+answer = (n * hour - m * 5.5).abs
+answer = 360 - answer if answer >= 180
+puts answer

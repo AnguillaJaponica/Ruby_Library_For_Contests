@@ -1,9 +1,9 @@
 n = gets.to_i
 d, x = gets.split.map(&:to_i)
-a_pairs = gets.split.map(&:to_i)
-
-n.times do |i|
-  eat = a_pairs[i]
-
+ans = 0
+n.times do
+  a = gets.to_i
+  ans += (d - 1) / a + 1
 end
 
+puts ans + x
