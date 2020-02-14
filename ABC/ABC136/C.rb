@@ -2,10 +2,14 @@ n = gets.to_i
 heights = gets.split.map(&:to_i)
 ans = 'Yes'
 
-(0...heights.length - 1).each do |i|
-  if heights[i + 1] - heights[i] == 1
-    heights[i + 1] -= 1
-  elsif heights[i + 1] - heights[i] >= 2
+highest = heights[0]
+
+heights.each do |h|
+  if h >= highest
+    highest = h
+  elsif h + 1 >= highest
+    highest = h + 1
+  else
     ans = 'No'
     break
   end
