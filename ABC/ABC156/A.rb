@@ -1,7 +1,7 @@
-a,b,c = gets.split.chomp
+n,r = gets.split.map(&:to_i)
 
-if [a,b,c].uniq.size == 2
-  puts 'Yes'
+if n >= 10
+  puts r
 else
-  puts 'No'
+  puts r + 100 * (10-n)
 end

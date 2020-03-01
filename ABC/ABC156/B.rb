@@ -1,13 +1,4 @@
-n = gets.to_i
-array = gets.split.map(&:to_i)
-ans = 'APPROVED'
+n, k = gets.split.map(&:to_i)
+count = 0
 
-array.each do |i|
-  if i.even?
-    unless i % 3 == 0 || i % 5 == 0
-      ans = 'DENIED'
-    end
-  end
-end
-
-puts ans
+puts n.to_s(k).size
