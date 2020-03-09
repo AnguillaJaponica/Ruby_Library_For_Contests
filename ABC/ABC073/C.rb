@@ -1,12 +1,20 @@
-n, t = gets.split.map(&:to_i)
-timings = gets.split.map(&:to_i).sort.reverse
-gap = 0
+n = gets.to_i
+number_counts = {}
+count = 0
 
-(0..timings.size - 2).each do |i|
-  diff = timings[i] - timings[i + 1]
-  if diff >= t
-    gap += diff - t
+n.times do
+  num = gets.to_i
+  if (number_counts[num]).nil? || number_counts[num] == 0
+    number_counts[num] = 1
+  else
+    number_counts[num] = 0
   end
 end
 
-puts n * t - gap
+number_counts.each_value do |i|
+  if i == 1
+    count += 1
+  end
+end
+
+puts count
