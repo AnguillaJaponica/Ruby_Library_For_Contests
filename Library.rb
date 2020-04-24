@@ -217,3 +217,8 @@ mat.transpose.map(&:reverse)  #=> 右回転
 mat.reverse.map(&:reverse)    #=> 180度回転
 mat.transpose.reverse         #=> 左回転
 
+# ユークリッド互除法
+def emdm(a, b)
+  a, b = b, a % b while b > 0
+  a
+end
