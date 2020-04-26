@@ -1,3 +1,6 @@
+# 円周率
+Math::PI
+
 # メモ化再帰
 def fib2(n)
   array = []
