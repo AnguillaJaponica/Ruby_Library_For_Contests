@@ -193,6 +193,10 @@ strings = []
 h.times do
   strings << gets.chomp
 end
+
+# 文字列のなかでその文字列が該当する最初の箇所のインデックスを出してくる
+puts "notification".index('fic') => 4
+
 # 配列の被り部分
 [1,2,3,4,5,6] & [3,4,5,6,7,8]
   => [3,4,5,6]
