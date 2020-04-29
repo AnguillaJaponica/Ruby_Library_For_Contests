@@ -189,6 +189,10 @@ h, w = gets.split.map(&:to_i)
   a = [ 1, 2, [3, [4, 5] ] ]
   a.flatten(1)              #=> [1, 2, 3, [4, 5]]
 
+# 最大公約数
+9.gcd(12)
+# 最小公倍数
+9.lcm(12)
 strings = []
 h.times do
   strings << gets.chomp
