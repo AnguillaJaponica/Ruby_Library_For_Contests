@@ -28,6 +28,12 @@ end
 scores = {'Carol' => 90, 'Alice' => 50, 'Bob' => 60, 'David' => 40}
 p scores.sort {|(k1, v1), (k2, v2)| v2 <=> v1}
 
+# ハッシュのデフォルト値(デフォルトが0になる)
+n = Hash.new(0)
+
+# 素因数分解
+require 'prime'
+12.prime_division => [[2, 2], [3, 1]]
 
 # 3桁表示で、ない分は0を埋める
 sprintf "%03d", i
