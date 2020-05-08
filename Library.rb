@@ -31,6 +31,9 @@ p scores.sort {|(k1, v1), (k2, v2)| v2 <=> v1}
 # ハッシュのデフォルト値(デフォルトが0になる)
 n = Hash.new(0)
 
+# 商とあまりを配列で返す
+13.divmod(3) => [4, 1]
+
 # 素因数分解
 require 'prime'
 12.prime_division => [[2, 2], [3, 1]]
